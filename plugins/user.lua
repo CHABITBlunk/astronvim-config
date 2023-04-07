@@ -10,7 +10,8 @@ return {
   --   end,
   -- },
   {
-      "catppuccin/nvim",
-      name = "catppuccin"
-  }
+    "catppuccin/nvim",
+    name = "catppuccin"
+  },
+  "mrjones2014/nvim-ts-rainbow"
 }

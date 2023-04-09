@@ -2,7 +2,7 @@
 return {
   opt = {
     -- set to true or false etc.
-    relativenumber = false, -- sets vim.opt.relativenumber
+    relativenumber = true, -- sets vim.opt.relativenumber
     shiftwidth = 2,
     tabstop = 2,
     number = true, -- sets vim.opt.number

@@ -9,9 +9,20 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  -- TODO take a nice little break
   {
     "catppuccin/nvim",
     name = "catppuccin"
   },
-  "mrjones2014/nvim-ts-rainbow"
+  {
+    "mrjones2014/nvim-ts-rainbow",
+    event = "VeryLazy"
+  },
+  {
+    "folke/todo-comments.nvim",
+    config = function ()
+      require('todo-comments').setup {}
+    end,
+    event = "VeryLazy"
+  }
 }

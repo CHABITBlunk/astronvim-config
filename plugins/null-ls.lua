@@ -10,12 +10,7 @@ return {
     config.sources = {
       -- Set a formatter
       null_ls.builtins.formatting.stylua,
-      null_ls.builtins.formatting.prettierd.with({
-			  extra_filetypes = { "toml" },
-			  env = {
-				  PRETTIERD_DEFAULT_CONFIG = vim.fn.expand("~/.config/nvim/lua/user/lsp/settings/prettier.json"),
-			  },
-		  }),
+      null_ls.builtins.formatting.prettierd,
       null_ls.builtins.formatting.rustfmt,
       null_ls.builtins.formatting.black.with({ extra_args = { "--fast" }}),
       null_ls.builtins.formatting.stylua,

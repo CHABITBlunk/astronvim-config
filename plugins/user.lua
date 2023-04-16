@@ -11,8 +11,7 @@ return {
   -- },
   -- TODO take a nice little break
   {
-    "catppuccin/nvim",
-    name = "catppuccin"
+    "folke/tokyonight.nvim"
   },
   {
     "mrjones2014/nvim-ts-rainbow",

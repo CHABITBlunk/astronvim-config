@@ -14,6 +14,10 @@ return {
     "folke/tokyonight.nvim"
   },
   {
+    'elkowar/yuck.vim',
+    event = "VeryLazy"
+  },
+  {
     "mrjones2014/nvim-ts-rainbow",
     event = "VeryLazy"
   },

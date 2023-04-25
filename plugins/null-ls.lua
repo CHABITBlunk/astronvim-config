@@ -12,7 +12,7 @@ return {
       null_ls.builtins.formatting.stylua,
       null_ls.builtins.formatting.prettierd,
       null_ls.builtins.formatting.rustfmt,
-      null_ls.builtins.formatting.black.with({ extra_args = { "--fast" }}),
+      null_ls.builtins.formatting.black,
       null_ls.builtins.formatting.stylua,
       null_ls.builtins.formatting.shfmt.with({
         extra_filetypes = { "zsh" }

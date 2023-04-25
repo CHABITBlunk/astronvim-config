@@ -36,7 +36,6 @@ return {
           -- "go",
           "java",
           "python",
-          
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
           -- "python",

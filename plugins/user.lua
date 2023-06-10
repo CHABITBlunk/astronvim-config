@@ -14,6 +14,19 @@ return {
     "folke/tokyonight.nvim"
   },
   {
+    "tpope/vim-fugitive",
+    event = "VeryLazy"
+  },
+  {
+    "mfussenegger/nvim-jdtls",
+    {
+      "williamboman/mason-lspconfig.nvim",
+      opts = {
+        ensure_installed = { "jdtls" }
+      }
+    }
+  },
+  {
     'elkowar/yuck.vim',
     event = "VeryLazy"
   },
@@ -21,11 +34,4 @@ return {
     "mrjones2014/nvim-ts-rainbow",
     event = "VeryLazy"
   },
-  {
-    "folke/todo-comments.nvim",
-    config = function ()
-      require('todo-comments').setup {}
-    end,
-    event = "VeryLazy"
-  }
 }

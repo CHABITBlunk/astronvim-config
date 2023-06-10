@@ -8,7 +8,10 @@ return {
       "c",
       "html",
       "css",
-      "javascript"
+      "javascript",
+      "rust",
+      "yuck",
+      "go",
     },
     highlight = {
       enable = true,

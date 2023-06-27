@@ -14,10 +14,6 @@ return {
     "folke/tokyonight.nvim"
   },
   {
-    "tpope/vim-fugitive",
-    event = "VeryLazy"
-  },
-  {
     "mfussenegger/nvim-jdtls",
     {
       "williamboman/mason-lspconfig.nvim",

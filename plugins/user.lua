@@ -11,7 +11,7 @@ return {
   -- },
   -- TODO take a nice little break
   {
-    "folke/tokyonight.nvim"
+    "rebelot/kanagawa.nvim"
   },
   {
     "mfussenegger/nvim-jdtls",

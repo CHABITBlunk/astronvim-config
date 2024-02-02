@@ -6,6 +6,7 @@ return {
       "java",
       "python",
       "c",
+      "make",
       "html",
       "css",
       "javascript",

@@ -7,6 +7,7 @@ return {
     tabstop = 4,
     scrolloff = 10,
     number = true, -- sets vim.opt.number
+    scrolloff = 15,
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap

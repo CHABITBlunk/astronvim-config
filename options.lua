@@ -8,7 +8,6 @@ return {
     scrolloff = 10,
     mouse = "",
     number = true, -- sets vim.opt.number
-    scrolloff = 15,
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
